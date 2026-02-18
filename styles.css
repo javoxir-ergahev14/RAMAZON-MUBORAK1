@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7fafc;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #00897b;
+    color: #fff;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd600;
+}
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 30px;
+}
+
+main h2 {
+   text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #e0f2f1;
+}
+#foods-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.food-card {
+    background: #f1f8e9;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    width: 260px;
+    padding: 16px;
+    text-align: center;
+}
+.food-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.food-card h3 {
+    margin: 12px 0 8px 0;
+    font-size: 1.1em;
+}
+.food-card p {
+    font-size: 0.97em;
+    color: #555;
+}
